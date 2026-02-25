@@ -1,5 +1,5 @@
 # LAB SHEET 2
-## JavaScript and DOM – Smart To-Do List Application
+## JavaScript and DOM – To-Do List 
 
 ### 🎓 Student Details
 | Field | Details |
