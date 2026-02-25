@@ -2,8 +2,6 @@
 ## JavaScript and DOM – Smart To-Do List Application
 
 ### 👤 Student Details
-| Field | Details |
-| :--- | :--- |
 | **Name** | Vani Sugovind S R |
 | **Roll No** | AM.SC.U4CSE23266 |
 | **Course** | Full Stack Development |
@@ -61,7 +59,7 @@ const taskInput = document.getElementById("taskInput");
 const addBtn = document.getElementById("addBtn");
 const categorySelect = document.getElementById("category");
 const taskList = document.getElementById("taskList");
-'''
+```
 
 #### b) Event Handling
 Interactive behavior is achieved without page reloads through:
@@ -77,12 +75,14 @@ if (text === "") {
     alert("Task cannot be empty!");
     return;
 }
+```
 #### d) Dynamic Task Creation & Timestamps
 Tasks are generated as `<li>` elements using `document.createElement("li")` and `appendChild()`. Each task captures the current time:
 
 ```javascript
 const now = new Date();
 const timestamp = now.toLocaleString(); // Provides context for each task
+```
 #### e) Task Completion & Deletion
 * **Completion:** Uses `classList.toggle("completed")` to visually mark tasks.
 * **Deletion:** Task removal is performed using `taskList.removeChild(li)`.
@@ -100,6 +100,7 @@ lab-2/
 ├── index.html      # UI Structure
 ├── style.css       # Visual Design and Animations
 └── script.js       # Dynamic Logic and DOM Control
+```
 ## 6. Output Description
 * **Dynamic Updates:** Tasks are added instantly to the list without a browser refresh.
 * **Categorization:** Each task is color-coded based on the user's selection (e.g., Work, Personal, Urgent).
