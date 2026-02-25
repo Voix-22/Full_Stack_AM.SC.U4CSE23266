@@ -1,7 +1,9 @@
 # LAB SHEET 2
 ## JavaScript and DOM – Smart To-Do List Application
 
-### 👤 Student Details
+### 🎓 Student Details
+| Field | Details |
+| :--- | :--- |
 | **Name** | Vani Sugovind S R |
 | **Roll No** | AM.SC.U4CSE23266 |
 | **Course** | Full Stack Development |
